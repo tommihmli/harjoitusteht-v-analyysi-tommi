@@ -1,0 +1,17 @@
+print ('Printer App')
+String = "creator"
+print ('This app is made by: '+ String)
+
+number1 = 67
+number2 = 69
+print ('The value of number1 is '+ str(number1))
+print ('The value of number1 is '+ str(number2))
+multiplication = number1 * number2
+addition = number1 + number2
+division = number1 / number2
+substraction = number1 - number2
+
+print(number1, "*", number2, "=", multiplication)
+print(number1, "+", number2, "=", addition)
+print(number1, "/", number2, "=", division)
+print(number1, "-", number2, "=", substraction)
