@@ -1,0 +1,5 @@
+name = "Tommi"
+guess = ""
+while guess != name:
+    guess = input("Guess name: ")
+print("Congratualtion!")
