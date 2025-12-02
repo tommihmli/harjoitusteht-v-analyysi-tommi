@@ -1,0 +1,56 @@
+number1 = 5
+number2 = 6
+
+if number1 == number2:
+    print(number1, "is equal to", number2)
+else: 
+    print(number1, "is not equal to", number2)
+
+if number1 > number2:
+    print(number1, "is greater to", number2)
+else: 
+    print(number1, "is not greater to", number2)
+
+if number1 >= number2:
+    print(number1, "is greater or equal to", number2)
+else: 
+    print(number1, "is not greater or equal to", number2)
+
+
+number1 = 5
+number2 = 7
+number3 = 3
+
+if number1 == number2 == number3:
+    print("all numbers are equal")
+else:
+    print("numbers are not equal")
+
+if number1 == number2 or number2 == number3:
+    print("number1 is equal to number2 or number2 is equal to number3")
+
+print(number1 > number2 and number1 > number3)
+
+number1 = 5
+number2 = 4
+number3 = 3
+
+if number1 == number2:
+    print("number1 equals number2")
+elif number1 == number3:
+    print("number1 equals number3")
+
+name1 = "Pena"
+name2 = "Antti"
+name3 = "Pena"
+
+if name1 == name2:
+    print("name1 is equal to name2")
+
+if name1 != name2:
+    print("name1 is not equal to name2")
+
+if name1 == name2:
+    print ("name1 is equal to name2")
+elif name1 == name3:
+    print("name1 is equal to name3")
