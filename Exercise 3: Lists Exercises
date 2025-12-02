@@ -1,0 +1,21 @@
+List = ["table", "chair", "sofa"]
+print(List)
+print(List[0:2])
+
+for sofa in List:
+    if sofa.lower() == "sofa":
+        print(sofa)
+
+
+import random
+
+
+thrownDiceNumbers = ["1", "2", "3", "4", "5"]
+for i in range(5):
+    thrownDiceNumbers[i] = random.randint(1, 5)
+print(thrownDiceNumbers)
+
+value = sum(thrownDiceNumbers)
+print(value)
+
+print(max(thrownDiceNumbers))
