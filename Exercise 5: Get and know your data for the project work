@@ -1,0 +1,17 @@
+#https://www.kaggle.com/datasets/joebeachcapital/cheese
+
+
+import pandas as pd
+
+df1 = pd.read_csv("cheeses.csv")
+df2 = pd.read_csv("cheese_details.csv")
+df1.head(10)
+df2.head(10)
+df1.info()
+df2.info()
+
+df1.sort_values("cheese")
+df1.sort_values("country", ascending=False)
+
+df_fr = df1[df1["country"] == "France"]
+print(df_fr)
